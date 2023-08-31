@@ -14,9 +14,9 @@
         <h1>Informe um número:</h1>
     </header>
     <section>
-        <form action="<?= $_SERVER['PHP_SELF']?>" method="GET">
+        <form action="<?= $_SERVER['PHP_SELF']?>" method="get">
             <label for="num">Número:</label>
-            <input type="number" name="num">
+            <input type="number" name="num" value="<?=$number?>">
             <input type="submit" value="Enviar">
         </form>
     </section>
