@@ -22,9 +22,9 @@
     <footer>
         <p class="resultado">
             <?php
-            echo "Analisando o número $number, temos:";
-            echo "A sua raiz quadrada é". ($number *(1/2));
-            echo "A sua raiz cúbica é". ($number *(1/3));
+            echo "Analisando o número $number, temos: <br> 
+            A sua raiz quadrada é ". sqrt($number)."<br>
+            A sua raiz cúbica é ". $number**(1/3);
             ?>
         </p>
     </footer>
