@@ -13,7 +13,7 @@
         <h1>Informe um número:</h1>
     </header>
     <section>
-        <form action="<?= $_SERVER['PHP_SELF']?>" method="$_GET">
+        <form action="<?= $_SERVER['PHP_SELF']?>" method="GET">
             <label for="num">Número:</label>
             <input type="number" name="num">
             <input type="submit" value="Enviar">
@@ -22,9 +22,9 @@
     <footer>
         <p class="resultado">
             <?php
-            echo "Analisando o número $number, temos:"<br>
-            "<ul> A sua raiz quadrada é {$number *(1/2)}"<br>
-            "<ul> A sua raiz cúbica é {$number *(1/3)}"
+            echo "Analisando o número $number, temos:";
+            echo "A sua raiz quadrada é". ($number *(1/2));
+            echo "A sua raiz cúbica é". ($number *(1/3));
             ?>
         </p>
     </footer>
