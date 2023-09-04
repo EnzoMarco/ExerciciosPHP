@@ -225,3 +225,6 @@ input[type=radio] + label, input[type=checkbox] + label {
     font-size: 1em;
     background-color: rgba(0, 0, 0, 0);
 }
+.resultado{
+    text-align: center;
+}
